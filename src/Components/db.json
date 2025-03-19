@@ -5,6 +5,90 @@
             "Name": "Ankush",
             "Course": "BCA",
             "Address": "Mandi"
+        },
+        {
+            "Id": 2,
+            "Name": "Pooja",
+            "Course": "MBA",
+            "Address": "Shimla"
+        },
+        {
+            "Id": 3,
+            "Name": "Rahul",
+            "Course": "B.Tech",
+            "Address": "Delhi"
+        },
+        {
+            "Id": 4,
+            "Name": "Sneha",
+            "Course": "MCA",
+            "Address": "Chandigarh"
+        },
+        {
+            "Id": 5,
+            "Name": "Vikram",
+            "Course": "B.Sc",
+            "Address": "Ludhiana"
+        },
+        {
+            "Id": 6,
+            "Name": "Riya",
+            "Course": "BBA",
+            "Address": "Amritsar"
+        },
+        {
+            "Id": 7,
+            "Name": "Karan",
+            "Course": "M.Tech",
+            "Address": "Pune"
+        },
+        {
+            "Id": 8,
+            "Name": "Megha",
+            "Course": "B.Com",
+            "Address": "Jaipur"
+        },
+        {
+            "Id": 9,
+            "Name": "Amit",
+            "Course": "MBA",
+            "Address": "Mumbai"
+        },
+        {
+            "Id": 10,
+            "Name": "Priya",
+            "Course": "BCA",
+            "Address": "Lucknow"
+        },
+        {
+            "Id": 11,
+            "Name": "Arjun",
+            "Course": "M.Sc",
+            "Address": "Hyderabad"
+        },
+        {
+            "Id": 12,
+            "Name": "Komal",
+            "Course": "B.Tech",
+            "Address": "Bangalore"
+        },
+        {
+            "Id": 13,
+            "Name": "Manoj",
+            "Course": "B.Sc",
+            "Address": "Kolkata"
+        },
+        {
+            "Id": 14,
+            "Name": "Alisha",
+            "Course": "MCA",
+            "Address": "Patna"
+        },
+        {
+            "Id": 15,
+            "Name": "Rohan",
+            "Course": "BBA",
+            "Address": "Noida"
         }
     ]
 }
