@@ -20,7 +20,7 @@ const router = createBrowserRouter([{
     path: '/create',
     element: <CreateStudent />,
   }, {
-    path: '/edit/:sudentid',
+    path: '/edit/:studentid',
     element: <StudentEdit />,
   },
   {
