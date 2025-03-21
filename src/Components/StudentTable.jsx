@@ -6,8 +6,6 @@ const StudentTable = () => {
     let navToEdit = useNavigate()
     let navToView = useNavigate()
 
-    // const [student, setStudent] = useState("")
-
     useEffect(() => {
         fetch('http://localhost:8000/Student')
             .then(res => res.json())
@@ -19,7 +17,7 @@ const StudentTable = () => {
 
     return (
 
-        <div className='bg-[#e5f5ea] h-lvh'>
+        <div className='bg-[#e5f5ea] py-30'>
             <div className="container w-5/6 mx-auto">
                 <div className="main">
                     <h2 className='text-[#6a9c89] text-6xl text-center font-bold font-(family-name:--font-roboto)'>Student Table</h2>
@@ -40,7 +38,7 @@ const StudentTable = () => {
                             <tbody>
                                 {
                                     students && students.map((item) => (
-                                        <tr className='bg-[#C1D8C3] text-[#387a61] h-20 text-center text-lg font-medium' key={item.Id}> 
+                                        <tr className='bg-[#C1D8C3] text-[#387a61] h-20 text-center text-lg font-medium' key={item.Id}>
                                             <td className='w-1/6'>{item.Id}</td>
                                             <td className='w-1/6'>{item.Name}</td>
                                             <td className='w-1/6'>{item.Course}</td>
