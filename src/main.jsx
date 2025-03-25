@@ -20,20 +20,20 @@ const router = createBrowserRouter([{
     path: '/create',
     element: <CreateStudent />,
   }, {
-    path: '/edit/:studentid',
+    path: 'student/edit/:studentid',
     element: <StudentEdit />,
   },
   {
-    path: '/view/:studentid',
+    path: 'student/view/:studentid',
     element: <ViewDetails />,
-  }
+  }, 
   ],
 }])
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <RouterProvider router={router}>
-    </RouterProvider>
-  </StrictMode>,
+  // <StrictMode>
+  <RouterProvider router={router}>
+  </RouterProvider>
+  // </StrictMode>,
 )

@@ -11,8 +11,8 @@ const Header = () => {
                         <nav className='flex space-x-4'>
                             <NavLink to='/' className='text-xl font-medium hover:text-[#6a9c89] transition-all duration-200'>Home</NavLink>
                             <NavLink to='/create' className='text-xl font-medium hover:text-[#6a9c89] transition-all duration-200'>Create</NavLink>
-                            <NavLink to='/edit/:studentid' className='text-xl font-medium hover:text-[#6a9c89] transition-all duration-200'>Edit</NavLink>
-                            <NavLink to='/view/:studentid' className='text-xl font-medium hover:text-[#6a9c89] transition-all duration-200'>View</NavLink>
+                            <NavLink to='student/edit/:studentid' className='text-xl font-medium hover:text-[#6a9c89] transition-all duration-200'>Edit</NavLink>
+                            <NavLink to='student/view/:studentid' className='text-xl font-medium hover:text-[#6a9c89] transition-all duration-200'>View</NavLink>
                         </nav>
                     </header>
                 </div>
